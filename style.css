@@ -5,11 +5,11 @@ nav {
   border: solid black 1px;
 }
 
-.logo img{
+.logo img {
   height: 40px;
 }
 
-.icons img{
+.icons img {
   height: 40px;
 }
 
@@ -17,16 +17,30 @@ nav {
   padding-left: 5px;
 }
 
-.icons i, .nav-avatar{
+.icons i,
+.nav-avatar {
   padding-left: 10px;
 }
 
-.search{
+.search {
   width: 70%;
   text-align: center;
   padding-top: 10px;
 }
 
-.search input{
+.search input {
   width: 70%;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  grid-gap: 10px;
+  padding-top: 30px;
+}
+
+.two-thirds {
+}
+
+.one-third {
 }
