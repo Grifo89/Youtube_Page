@@ -33,14 +33,29 @@ nav {
 }
 
 .inner {
-  display: grid;
-  grid-template-columns: 60% 30%;
-  grid-gap: 10px;
-  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 .two-thirds {
+  flex-grow: 6
 }
 
 .one-third {
+  flex-grow: 1
+}
+
+iframe{
+  width: 100%;
+}
+
+.thumbnail-image img{
+  width: 30%;
+}
+
+.thumbnails{
+  display: flex;
+  justify-content: flex-start;
 }
