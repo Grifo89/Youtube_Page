@@ -72,6 +72,9 @@ nav {
 
 .show-buttons {
   display: flex;
+  justify-content: space-around;
+  background: yellow;
+
 }
 
 .one-third {
@@ -90,4 +93,21 @@ iframe {
 .thumbnails {
   display: flex;
   justify-content: flex-start;
+}
+
+.avatar img{
+  width: 60px;
+  height: 60px;
+}
+
+.flex{
+  display: flex;
+}
+
+.likes-dislikes{
+  display: flex;
+}
+
+.likes, .dislikes{
+  padding: 0px 10px;
 }
