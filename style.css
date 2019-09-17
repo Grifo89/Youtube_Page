@@ -58,9 +58,11 @@ nav {
   padding: 20px 0 0 0;
 }
 
+/*------------------------------
+    TWO THIRDS
+--------------------------*/
 .two-thirds {
   width: 800px;
-  background: #6ec9f3;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -68,46 +70,75 @@ nav {
 
 .video-title {
   font-size: 30px;
+  padding: 20px 0;
 }
 
 .show-buttons {
   display: flex;
   justify-content: space-around;
-  background: yellow;
-
-}
-
-.one-third {
-  width: 400px;
-  background: #00ff00;
 }
 
 iframe {
   width: 100%;
 }
 
-.thumbnail-image img {
-  width: 30%;
-}
-
-.thumbnails {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.avatar img{
+.avatar img {
   width: 60px;
   height: 60px;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-.likes-dislikes{
+.likes-dislikes {
   display: flex;
 }
 
-.likes, .dislikes{
+.likes,
+.dislikes {
   padding: 0px 10px;
+}
+
+.views {
+  width: 80%;
+}
+
+.avatar-subscribe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar {
+  display: flex;
+}
+
+.avatar p {
+  padding: 20px 0 0 10px;
+}
+
+.subscribe-btn button {
+  background: #cc0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+}
+
+/*--------------------------------
+    THUMBNAILS
+----------------------------------*/
+
+.one-third {
+  width: 400px;
+  background: #00ff00;
+}
+
+.thumbnail-image img {
+  width: 30%;
+  float: left;
+  padding-left: 20px;
+}
+
+.thumbnails {
 }
