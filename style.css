@@ -52,10 +52,20 @@ nav {
   width: 70%;
   text-align: center;
   padding-top: 10px;
+  display: inline-block;
 }
 
 .search input {
   width: 70%;
+  padding-right: 0;
+  margin-right: 0;
+
+}
+
+.search button{
+  margin-left: -5px;
+  width: 65px;
+
 }
 
 /*=============================================
